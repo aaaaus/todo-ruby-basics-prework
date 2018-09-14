@@ -10,18 +10,18 @@ def argue
   
 end
 
-def greeting
-
+def greeting(name, location)
+  puts "Hi #{name}, welome to #{location}!"
 end
 
 def return_a_value
-
+  return "Nice"
 end
 
 def last_evaluated_value
-
+  return "expert"
 end
 
-def pizza_party
-
+def pizza_party(type = "cheese")
+  return type
 end
